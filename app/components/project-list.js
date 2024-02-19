@@ -1,0 +1,51 @@
+const projectList = [
+  {
+    id: 1,
+    title: "Discord Clone",
+    img: "discord.webp",
+    description: "test",
+    github: "https://github.com/codewithnabilla/discord-clone",
+    link: "",
+  },
+  {
+    id: 2,
+    title: "Netfix Clone",
+    img: "netflix.png",
+    description: "test",
+    github: "https://github.com/codewithnabilla/netflix-clone",
+    link: "",
+  },
+  {
+    id: 3,
+    title: "Twiscode",
+    img: "twiscode.png",
+    description: "test",
+    github: "https://github.com/codewithnabilla/twiscode",
+    link: "https://twiscode-kkrach6ex-codewithnabillas-projects.vercel.app/about",
+  },
+  {
+    id: 4,
+    title: "Travel.",
+    img: "travel.png",
+    description: "test",
+    github: "",
+    link: "",
+  },
+  {
+    id: 5,
+    title: "Food",
+    img: "food.png",
+    description: "test",
+    github: "",
+    link: "",
+  },
+  {
+    id: 6,
+    title: "E-commerce",
+    img: "e-commerce.png",
+    description: "test",
+    github: "",
+    link: "",
+  },
+];
+export default projectList;
