@@ -18,6 +18,7 @@ export default function Contact() {
         <div className="ml-10">
           <div className="flex gap-6 mb-5">
             <MailOpen />
+
             <p>nabillamaharani98@gmail.com</p>
           </div>
           <div className="flex gap-6 mb-5">

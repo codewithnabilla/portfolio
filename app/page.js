@@ -31,8 +31,8 @@ export default function Page() {
   }, []);
   return (
     <>
-      <div className="mx-5">
-        <nav className="sticky top-0 z-50 bg-white shadow-md p-5">
+      <div>
+        <nav className=" bg-white shadow-md p-5">
           <div className="flex justify-between">
             <h3 className="font-sans font-bold text-xl">Nabilla.</h3>
             <ul className="hidden md:flex lg:flex justify-around gap-10 font-bold text-lg">

@@ -16,20 +16,22 @@ export default function Project({ projects }) {
             key={project.id}
             className="rounded-lg overflow-hidden shadow-lg cursor-pointer hover:shadow-sm"
           >
-            <img className="w-full" src={project.img} />
-            <h1>{project.title}</h1>
-            <p>{project.description}</p>
-            <div className="flex gap-6 mt-8 justify-center lg:justify-start">
-              <Link href={project.github}>
-                <GithubIcon
-                  className="p-0.5 cursor-pointer rounded-sm hover:bg-slate-400"
-                  width={30}
-                  height={30}
-                />
-              </Link>
-              <Link href={project.link}>
-                <p>Visit Link</p>
-              </Link>
+            <img className="w-full" src={project.img} alt={project.alt} />
+            <div className="px-3 mt-5 pb-3">
+              <h1 className="text-xl font-bold">{project.title}</h1>
+              <p>{project.description}</p>
+              <div className="flex gap-6 mt-8 justify-center lg:justify-start">
+                <Link href={project.github}>
+                  <button className="cursor-pointer rounded-lg border-slate-400 border-2 py-1 px-2 hover:bg-slate-200">
+                    Code
+                  </button>
+                </Link>
+                <Link href={project.link}>
+                  <button className="cursor-pointer rounded-lg border-slate-400 border-2 py-1 px-2 hover:bg-slate-200">
+                    Visit Link
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
         ))}
