@@ -33,7 +33,7 @@ export default function Home() {
             Front-End Developer
           </h1>
           <p className="text-lg text-center lg:text-left lg:text-xl text-gray-700">
-            Hi, I'm Nabilla Maharani. A passionate Front-End <br /> Developer
+            Hi, I am Nabilla Maharani. A passionate Front-End <br /> Developer
             based in Jakarta, Indonesia.
           </p>
           <div className="flex gap-6 mt-8 justify-center lg:justify-start">

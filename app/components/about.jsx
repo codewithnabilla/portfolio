@@ -20,7 +20,7 @@ export default function About() {
             based in Jakarta, Indonesia
           </h1>
           <p className="text-gray-700 mb-3 text-center lg:text-left ">
-            Hey, my name is Nabilla, and I'm a Frontend Developer. <br />
+            Hey, my name is Nabilla, and I am a Frontend Developer. <br />
             My passion is to create and develop a web for my users.
           </p>
           <p className="text-gray-700 mb-3 text-center lg:text-left ">
