@@ -28,7 +28,7 @@ export default function About() {
             with Tailwind CSS and TypeScript. <br />
           </p>
           <p className="text-gray-700 mb-3 text-center lg:text-left ">
-            Even though my main stack in frontend, i currently learning <br />{" "}
+            Even though my main stack in frontend, i currently learning <br />
             backend stack such as nodejs, prisma, and mySQL. <br />
             Hopefully in the end, i can become a fullstack developer.
           </p>

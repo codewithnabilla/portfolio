@@ -1,4 +1,5 @@
 import { GithubIcon } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Project({ projects }) {
@@ -16,7 +17,11 @@ export default function Project({ projects }) {
             key={project.id}
             className="rounded-lg overflow-hidden shadow-lg cursor-pointer hover:shadow-sm"
           >
-            <img className="w-full" src={project.img} alt={project.alt} />
+            <img
+              className="w-full h-auto"
+              src={project.img}
+              alt={project.alt}
+            />
             <div className="px-3 mt-5 pb-3">
               <h1 className="text-xl font-bold">{project.title}</h1>
               <p>{project.description}</p>
