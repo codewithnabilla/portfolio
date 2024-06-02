@@ -30,10 +30,10 @@ export default function Home() {
       <div className="flex flex-col-reverse md:flex-row lg:flex-row justify-center gap-11 items-center bg-[#f9f9f9] pt-8 pb-5">
         <div>
           <h1 className="text-4xl text-center lg:text-left lg:text-6xl font-extrabold mb-5">
-            Front-End Developer
+            Fullstack Developer
           </h1>
           <p className="text-lg text-center lg:text-left lg:text-xl text-gray-700">
-            Hi, I am Nabilla Maharani. A passionate Front-End <br /> Developer
+            Hi, I am Nabilla Maharani. A passionate Fullstack <br /> Developer
             based in Jakarta, Indonesia.
           </p>
           <div className="flex gap-6 mt-8 justify-center lg:justify-start">
@@ -65,11 +65,18 @@ export default function Home() {
                 height={40}
                 alt="javascript logo"
               />
+              <Image src="/php.svg" width={40} height={40} alt="php logo" />
               <Image
                 src="/typescript.svg"
                 width={40}
                 height={40}
                 alt="typescript logo"
+              />
+              <Image
+                src="/laravel.svg"
+                width={40}
+                height={40}
+                alt="laravel logo"
               />
               <Image src="/react.svg" width={40} height={40} alt="react logo" />
               <Image
@@ -84,24 +91,14 @@ export default function Home() {
                 height={40}
                 alt="tailwind logo"
               />
-              <Image
-                src="/bootstrap.svg"
-                width={40}
-                height={40}
-                alt="bootstrap logo"
-              />
+
               <Image
                 src="/nodejs.svg"
                 width={40}
                 height={40}
                 alt="nodejs logo"
               />
-              <Image
-                src="/prisma.svg"
-                width={40}
-                height={40}
-                alt="prisma logo"
-              />
+
               <Image src="/mysql.svg" width={40} height={40} alt="mysql logo" />
             </div>
           </div>
