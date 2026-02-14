@@ -32,10 +32,12 @@ export default function Home() {
           <h1 className="text-4xl text-center lg:text-left lg:text-6xl font-extrabold mb-5">
             Fullstack Developer
           </h1>
-          <p className="text-lg text-center lg:text-left lg:text-xl text-gray-700">
-            Hi, I am Nabilla Maharani. A passionate Fullstack <br /> Developer
-            based in Jakarta, Indonesia.
+          <p className="text-lg lg:text-xl text-gray-700 text-center md:text-center lg:text-left max-w-xl mx-auto lg:mx-0 leading-relaxed">
+            Hi, I’m Nabilla Maharani. A Fullstack Developer based in Jakarta, Indonesia,
+            experienced in building and maintaining modern web applications across
+            frontend and backend systems.
           </p>
+
           <div className="flex gap-6 mt-8 justify-center lg:justify-start">
             <Link href="https://github.com/codewithnabilla">
               <GithubIcon
@@ -44,7 +46,7 @@ export default function Home() {
                 height={30}
               />
             </Link>
-            <Link href="https://www.linkedin.com/in/nabilla-m-169311210/">
+            <Link href="https://www.linkedin.com/in/nabilla-maharani-169311210/">
               <Linkedin
                 className="p-0.5 cursor-pointer rounded-sm hover:bg-slate-400"
                 width={30}
@@ -57,49 +59,51 @@ export default function Home() {
               Tech Stack
             </h1>
             <div className="flex gap-3 flex-wrap justify-center lg:justify-start">
-              <Image src="/html.svg" width={40} height={40} alt="HTML logo" />
-              <Image src="/css3.svg" width={40} height={40} alt="css logo" />
+              <Image src="/html.svg" width={30} height={30} alt="HTML logo" />
+              <Image src="/css3.svg" width={30} height={30} alt="css logo" />
               <Image
                 src="/javascript.svg"
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt="javascript logo"
               />
-              <Image src="/php.svg" width={40} height={40} alt="php logo" />
+              <Image src="/php.svg" width={30} height={30} alt="php logo" />
               <Image
                 src="/typescript.svg"
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt="typescript logo"
               />
               <Image
                 src="/laravel.svg"
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt="laravel logo"
               />
-              <Image src="/react.svg" width={40} height={40} alt="react logo" />
+              <Image src="/react.svg" width={30} height={30} alt="react logo" />
               <Image
                 src="/nextjs.svg"
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt="nextjs logo"
               />
+              <Image src="/mui.svg" width={30} height={30} alt="mui logo" />
               <Image
                 src="/tailwind.svg"
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt="tailwind logo"
               />
 
               <Image
                 src="/nodejs.svg"
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt="nodejs logo"
               />
 
-              <Image src="/mysql.svg" width={40} height={40} alt="mysql logo" />
+              <Image src="/mysql.svg" width={30} height={30} alt="mysql logo" />
+              <Image src="/postgresql.svg" width={30} height={30} alt="postgresql logo" />
             </div>
           </div>
         </div>
